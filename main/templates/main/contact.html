@@ -4,7 +4,7 @@
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - TIMINIKALA.sa</title>
+    <title>A Propos - TIMINIKALA.sa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
@@ -239,9 +239,17 @@
             <p>Snapchat</p>
         </div>
         <div class="social-icon email">
-            <a href="mailto:info@timinikala.com"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:contact@timinikala.com"><i class="fas fa-envelope"></i></a>
             <p>Email</p>
         </div>
+    </div>
+
+ <!-- Insertion de la vidéo -->
+    <div class="video-container" style="text-align: center; margin: 20px 0;">
+        <video width="320" height="240" controls>
+            <source src="{% static 'main\images\timinikalavideo.mp4' %}" type="video/mp4">
+            Votre navigateur ne supporte pas la balise vidéo.
+        </video>
     </div>
 
     <div class="contact-section">
