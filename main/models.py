@@ -4,7 +4,8 @@ from django.contrib.auth.models import User
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
-    images = models.ImageField(upload_to='main/')
+    #images = models.ImageField(upload_to='main/')
+    images = models.ImageField(upload_to='media/')
     ingredients = models.TextField()
     instructions = models.TextField()
     prix = models.IntegerField()
